@@ -1,0 +1,21 @@
+.header__lang-link-ru {
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    right: 71px;
+    top: 46px;   
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    transition-property: opacity;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+}
+
+.header__lang-link-ru:hover {
+    opacity: 0.4;
+}
