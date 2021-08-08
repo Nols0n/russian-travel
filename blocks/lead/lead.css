@@ -1,0 +1,13 @@
+.lead {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 128px;
+}
+
+@media all and (max-width:767px) {
+    .lead {
+        padding: 0;
+        margin-top: 106px;
+    }
+}

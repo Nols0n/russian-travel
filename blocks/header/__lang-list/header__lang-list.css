@@ -1,0 +1,5 @@
+.header__lang-list {
+    align-items: center;
+    display: flex;
+    width: 80px;
+}

@@ -1,0 +1,10 @@
+.place__website {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    max-height: 45px;
+    margin-top: 32px;
+}
+
