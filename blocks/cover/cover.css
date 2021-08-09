@@ -1,4 +1,18 @@
 .cover {
   font-family: 'Inter', Arial, sans-serif;
   max-width: 1200px;
+  margin: 92px auto;
+}
+
+@media all and (max-width:1024px) {
+  .cover {
+    margin: 88px auto;
+  }
+}
+
+@media all and (max-width:1024px) {
+  .cover {
+    margin: 66px auto;
+    margin-bottom: 97px;
+  }
 }

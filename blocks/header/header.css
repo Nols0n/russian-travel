@@ -5,8 +5,14 @@
     justify-content: space-between;
     padding-top: 28px;
     margin: 0 48px;
-    margin-bottom: 48px;
-    max-width: 2500px;
+    margin-bottom: 56px;
+    max-width: 1280px;
+}
+
+@media all and (min-width:1280px) {
+    .header {
+        margin: 0 auto;
+    }
 }
 
 @media all and (max-width:767px) {
@@ -17,7 +23,7 @@
     }
 }
 
-@media all and (min-width:767px) and (max-width:1024px) {
+@media all and (min-width:768px) and (max-width:1023px) {
     .header {
         padding-top: 28px;
         margin: 0 24px;

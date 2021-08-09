@@ -1,6 +1,5 @@
 .lead__caption {
     margin: 0;
-    margin-left: 40px;
     margin-top: 8px;
     text-align: start;
     font-family: Inter;
@@ -10,4 +9,10 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #FFF;
+}
+
+@media all and (max-width:1004px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
 }
