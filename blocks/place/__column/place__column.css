@@ -4,8 +4,8 @@
     max-width: 956px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: start;
+    align-items: flex-start;
 }
 
 @media all and (max-width:767px) {
@@ -14,11 +14,7 @@
         margin: 0;
         align-items: flex-start;
         flex-direction: column;
+        justify-content: start;
     }
 }
 
-@media all and (min-width:768px) and (max-width:1024px) {
-    .place__column {
-        justify-content: space-between;
-    }
-}

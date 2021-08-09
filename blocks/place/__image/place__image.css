@@ -4,6 +4,8 @@
     margin-right: 40px;
     display: block;
     max-width: 460px;
+    object-fit: cover;
+    max-width: 50%;
 }
 
 @media all and (max-width:767px) {
