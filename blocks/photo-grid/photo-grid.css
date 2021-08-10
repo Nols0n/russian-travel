@@ -5,12 +5,12 @@
   max-width: 100%;
   gap:20px;
   padding: 0 48px;
-  max-width: 1240px;
 }
 
 @media all and (min-width:1280px) {
   .photo-grid {
       margin: 0 auto;
+      max-width: 1240px;
   }
 }
 
