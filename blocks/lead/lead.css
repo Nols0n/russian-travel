@@ -1,11 +1,17 @@
 .lead {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 928px;
+}
+
+@media all and (min-width:1200px) {
+    .lead {
+        max-width: 984px;
+    }
 }
 
 @media all and (max-width:767px) {
     .lead {
         padding: 0;
-        margin-top: 106px;
+        margin-top: 106px;  
     }
 }

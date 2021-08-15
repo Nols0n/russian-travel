@@ -17,8 +17,14 @@
     opacity: 0.8;
 }
 
-@media all and (max-width:1024px) {
+@media all and (max-width:1024px) and (min-width:768px) {
     .place__link {
         margin: 0 16px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .place__url-heading {
+        margin: 0;
     }
 }
