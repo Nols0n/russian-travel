@@ -2,11 +2,13 @@
   font-family: 'Inter', Arial, sans-serif;
   max-width: 1200px;
   margin: 92px auto;
+  margin-bottom: 0;
 }
 
 @media all and (max-width:1024px) {
   .cover {
     margin: 88px auto;
+    margin-bottom: 0;
     margin-bottom: 97px;
   }
 }
