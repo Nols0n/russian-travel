@@ -3,9 +3,9 @@
     margin: 0 24px;
     max-width: 956px;
     display: flex;
-    flex-direction: row;
-    justify-content: start;
     align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 @media all and (max-width:767px) {

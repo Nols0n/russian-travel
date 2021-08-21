@@ -9,10 +9,9 @@
     max-width: 1184px;
 }
 
-@media all and (min-width:1280px) {
+@media all and (min-width:1279px) {
     .footer {
-        margin: 90px auto;
-        margin-bottom: 0;
+        margin: 0 auto;
     }
 }
 
@@ -20,11 +19,10 @@
 @media all and (max-width:767px) {
     .footer {
         flex-direction: column;
-        margin: 24px 16px;
-        margin-top: 64px;
+        margin: 0;
         padding: 0;
         align-items: flex-start;
         justify-content:flex-start;
     }
-    
+
 }
